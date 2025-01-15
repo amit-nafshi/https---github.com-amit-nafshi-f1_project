@@ -1,0 +1,11 @@
+# Create venv (either works)
+python -m venv .venv
+py -3 -m venv .venv 
+
+# Bypass Powershell
+Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass
+
+# Activate venv
+.venv\Scripts\Activate.ps1      # Powershell
+.venv\Scripts\activate          # Batch File 
+
